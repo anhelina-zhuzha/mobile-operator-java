@@ -4,6 +4,8 @@
 
 ## Compile
 ```bash
+./mvnw install
+
 cd src/main/java
 javac ./com/anhelinaZhuzha/mobileOperator/MobileOperatorApplication.java
 ```
@@ -12,3 +14,4 @@ javac ./com/anhelinaZhuzha/mobileOperator/MobileOperatorApplication.java
 cd src/main/java
 java com.anhelinaZhuzha.mobileOperator.MobileOperatorApplication
 ```
+

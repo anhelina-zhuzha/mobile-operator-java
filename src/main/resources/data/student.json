@@ -1,0 +1,51 @@
+{
+  "name": "Жужа Стедент",
+  "services": [
+    {
+      "type": "dial",
+      "minutes": 500,
+      "name": "Звонки",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 10.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "sms",
+      "amount": 200,
+      "name": "SMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 5.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "mms",
+      "amount": 100,
+      "name": "MMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 10.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "internet",
+      "traffic": 2000,
+      "name": "Internet",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 5.0,
+        "periodDays": 30
+      }
+    }
+  ],
+  "discount": {
+    "type": "fixed",
+    "fixedDiscountAmount": 15.0,
+    "name": "Черная пятница"
+  },
+  "price": 30.0
+}

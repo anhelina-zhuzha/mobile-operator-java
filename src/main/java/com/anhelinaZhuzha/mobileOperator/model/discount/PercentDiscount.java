@@ -1,11 +1,11 @@
 package com.anhelinaZhuzha.mobileOperator.model.discount;
 
 
-public class PrecentDiscount extends Discount {
+public class PercentDiscount extends Discount {
 
     private double discountInPercent;
 
-    public PrecentDiscount(String name, double discountInPercent) {
+    public PercentDiscount(String name, double discountInPercent) {
         super(name);
         this.discountInPercent = discountInPercent;
     }
