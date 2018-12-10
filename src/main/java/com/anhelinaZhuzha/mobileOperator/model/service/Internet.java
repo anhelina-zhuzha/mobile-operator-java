@@ -17,6 +17,9 @@ public class Internet extends Service {
         return traffic;
     }
 
+    /**
+     * Dynamic polymorphism, method overridden method on the super class
+     */
     @Override
     public String text() {
         return String.format("%d MB internet", traffic) + " / " + super.text();

@@ -9,6 +9,9 @@ public class MMS extends SMS {
         super(name, isItRequired, paymentType, amount);
     }
 
+    /**
+     * Dynamic polymorphism, method overridden method on the super class
+     */
     @Override
     public String text() {
         return super.text().replace("смс", "ммс");
