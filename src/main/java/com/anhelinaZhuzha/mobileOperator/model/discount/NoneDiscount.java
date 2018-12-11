@@ -7,10 +7,5 @@ public class NoneDiscount extends Discount {
         super(name);
     }
 
-    @Override
-    protected double calculate(double price) {
-        return price;
-    }
-
 }
 

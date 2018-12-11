@@ -17,6 +17,9 @@ public class Dial extends Service {
         return minutes;
     }
 
+    /**
+     * Dynamic polymorphism, method overridden method on the super class
+     */
     @Override
     public String text() {
         return String.format("%d минут звонков", minutes) + " / " + super.text();

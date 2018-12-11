@@ -10,6 +10,9 @@ public class FixedPriceDiscount extends Discount {
         this.fixedDiscountAmount = fixedDiscountAmount;
     }
 
+    /**
+     * Dynamic polymorphism, method overridden method on the super class
+     */
     @Override
     protected double calculate(double price) {
         return price - fixedDiscountAmount;

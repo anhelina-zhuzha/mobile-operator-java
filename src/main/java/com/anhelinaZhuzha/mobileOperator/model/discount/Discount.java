@@ -21,7 +21,9 @@ abstract public class Discount {
     }
 
 
-    protected abstract double calculate(double price);
+    protected double calculate(double price) {
+        return price;
+    }
 
 }
 
