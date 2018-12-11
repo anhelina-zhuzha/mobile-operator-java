@@ -1,0 +1,12 @@
+.card {
+    margin: 20px;
+    width: 320px;
+}
+.card-title {
+    color: red;
+    text-transform: capitalize;
+}
+.price {
+    font-weight: bold;
+    font-size: 1.3em;
+}

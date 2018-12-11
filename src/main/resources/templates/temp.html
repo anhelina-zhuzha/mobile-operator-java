@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Жужа телеком связь</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Тарифы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+    </span>
+        </div>
+    </nav>
+
+    <span th:text="'Message: ' + ${message}"></span>
+    <div class="row hidden-md-up">
+        <div class="filter m-3 ">
+            <form class="form-inline">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">SMS</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">MMS</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <label class="form-check-label" for="inlineCheckbox3">Internet</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Поиск</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row hidden-md-up">
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа стедент</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/1.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">50 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для бедных студентов</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа аспирант</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/2.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">60 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для бедных аспирантов</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа ассистент</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/3.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">70 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для бедных ассистентов</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа доцент</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/4.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">80 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для бедных доцентов</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа профессор</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/5.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">90 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для профессоров</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Жужа ректор</h5>
+
+            </div>
+            <img class="card-img-top" src="../static/images/6.jpeg">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item price">100 грн/4 тижні</li>
+                <li class="list-group-item">Безліміт в мережі</li>
+                <li class="list-group-item">Безліміт за кордон</li>
+            </ul>
+
+            <div class="card-body">
+                <p class="card-text">Наше специальное предложение для ректоров</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <script src="../../jquery-3.3.1.slim.min.js"></script>
+    <script src="../../popper.min.js"></script>
+    <script src="../../bootstrap.min.js"></script>
+</body>
+</html>
