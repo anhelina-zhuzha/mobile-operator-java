@@ -1,0 +1,51 @@
+{
+  "name": "Жужа Профессор",
+  "services": [
+    {
+      "type": "dial",
+      "minutes": 790,
+      "name": "Звонки",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 40.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "sms",
+      "amount": 900,
+      "name": "SMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 65.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "mms",
+      "amount": 0,
+      "name": "MMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 10.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "internet",
+      "traffic": 289,
+      "name": "Internet",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 15.0,
+        "periodDays": 30
+      }
+    }
+  ],
+  "discount": {
+    "type": "fixed",
+    "fixedDiscountAmount": 15.0,
+    "name": "Черная пятница"
+  },
+  "price": 60.0
+}
