@@ -1,43 +1,43 @@
 {
-  "name": "Жужа Стедент",
+  "name": "Жужа Студент",
   "services": [
     {
       "type": "dial",
-      "minutes": 500,
+      "minutes": 350,
       "name": "Звонки",
       "isItRequired": true,
       "paymentType": {
-        "price": 10.0,
+        "price": 15.0,
         "periodDays": 30
       }
     },
     {
       "type": "sms",
-      "amount": 200,
+      "amount": 290,
       "name": "SMS",
       "isItRequired": true,
       "paymentType": {
-        "price": 5.0,
+        "price": 35.0,
         "periodDays": 30
       }
     },
     {
       "type": "mms",
-      "amount": 100,
+      "amount": 190,
       "name": "MMS",
       "isItRequired": true,
       "paymentType": {
-        "price": 10.0,
+        "price": 18.0,
         "periodDays": 30
       }
     },
     {
       "type": "internet",
-      "traffic": 2000,
+      "traffic": 0,
       "name": "Internet",
       "isItRequired": true,
       "paymentType": {
-        "price": 5.0,
+        "price": 0.0,
         "periodDays": 30
       }
     }
@@ -47,5 +47,5 @@
     "fixedDiscountAmount": 15.0,
     "name": "Черная пятница"
   },
-  "price": 30.0
+  "price": 20.0
 }
