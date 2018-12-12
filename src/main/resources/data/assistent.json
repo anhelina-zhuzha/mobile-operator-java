@@ -1,0 +1,51 @@
+{
+  "name": "Жужа Ассистент",
+  "services": [
+    {
+      "type": "dial",
+      "minutes": 450,
+      "name": "Звонки",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 30.0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "sms",
+      "amount": 360,
+      "name": "SMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 0,
+        "periodDays": 30
+      }
+    },
+    {
+      "type": "mms",
+      "amount": 0,
+      "name": "MMS",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 0.0,
+        "periodDays": 25
+      }
+    },
+    {
+      "type": "internet",
+      "traffic": 2000,
+      "name": "Internet",
+      "isItRequired": true,
+      "paymentType": {
+        "price": 50.0,
+        "periodDays": 30
+      }
+    }
+  ],
+  "discount": {
+    "type": "fixed",
+    "fixedDiscountAmount": 15.0,
+    "name": "Черная пятница"
+  },
+  "price": 70.0
+}
