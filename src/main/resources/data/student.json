@@ -30,16 +30,6 @@
         "price": 18.0,
         "periodDays": 30
       }
-    },
-    {
-      "type": "internet",
-      "traffic": 0,
-      "name": "Internet",
-      "isItRequired": true,
-      "paymentType": {
-        "price": 0.0,
-        "periodDays": 30
-      }
     }
   ],
   "discount": {

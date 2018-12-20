@@ -61,5 +61,16 @@ public class Tariff {
         }
         return  info;
     }
+
+    public boolean hasService(String name) {
+        for (Service service:
+                services) {
+            if (service.name().equals(name)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
 

@@ -22,16 +22,6 @@
       }
     },
     {
-      "type": "mms",
-      "amount": 0,
-      "name": "MMS",
-      "isItRequired": true,
-      "paymentType": {
-        "price": 10.0,
-        "periodDays": 30
-      }
-    },
-    {
       "type": "internet",
       "traffic": 289,
       "name": "Internet",

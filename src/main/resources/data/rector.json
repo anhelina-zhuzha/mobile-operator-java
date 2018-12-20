@@ -12,16 +12,6 @@
       }
     },
     {
-      "type": "sms",
-      "amount": 0,
-      "name": "SMS",
-      "isItRequired": true,
-      "paymentType": {
-        "price": 0,
-        "periodDays": 50
-      }
-    },
-    {
       "type": "mms",
       "amount": 456,
       "name": "MMS",
